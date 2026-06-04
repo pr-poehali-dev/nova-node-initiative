@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Get videos without auth",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 401
+    },
+    {
+      "name": "Get videos with auth",
+      "method": "GET",
+      "path": "/",
+      "headers": {"X-Authorization": "1:sometoken"},
+      "expectedStatus": 200
+    }
+  ]
+}

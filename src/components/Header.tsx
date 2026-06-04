@@ -20,6 +20,12 @@ export default function Header({ className }: HeaderProps) {
           >
             Записаться
           </a>
+          <a
+            href="/auth"
+            className="text-white border border-white px-3 py-1 hover:bg-white hover:text-neutral-900 transition-all duration-300 uppercase text-sm"
+          >
+            Кабинет
+          </a>
         </nav>
       </div>
     </header>
